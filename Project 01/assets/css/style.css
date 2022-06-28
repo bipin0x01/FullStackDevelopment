@@ -1,40 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 body {
-  background-color: #eff2f5;
-  min-width: 500px;
-  height: 50%;
-}
-.logo {
-  width: 20rem;
-}
-
-.subtext {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
-  font-size: 1.8rem;
-}
-
-.login {
-  border: none;
   background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgb(0 0 0 / 10%),
-    0 8px 16px rgb(0 0 0 / 10%);
-  width: 396px;
-  align-items: center;
-  padding: 20px 0 28px;
-  margin: 40px 0 0;
-  box-sizing: border-box;
 }
 
-.login-container {
-  display: block;
-}
-
-.details {
-  margin-top: 1rem;
-  padding: 9px;
-  width: 20rem;
-  margin-left: 2rem;
+.top {
+  background-color: aqua;
+  height: 10px;
 }
