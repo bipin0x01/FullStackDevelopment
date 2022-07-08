@@ -1,1 +1,1 @@
-# Responsive Tic Tac Toe Game
+# JavaScript Tutorial
