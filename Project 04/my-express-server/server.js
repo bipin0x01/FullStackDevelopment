@@ -8,9 +8,13 @@ app.get('/', (req, res) => {
     res.send('Hello World')
 });
 
-app.get('/about', (response, request) => {
-    response.send('this is about us.')
+app.get('/about', (req, res) => {
+    res.send('this is about us.')
 });
+
+app.get('/contact', (req, res) => {
+    res.send('<h1>This is contact page.</h1>')
+})
 
 app.listen(port, () => {
     console.log(`Exam app listening on port ${port}`)
