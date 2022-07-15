@@ -1,11 +1,11 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.18.1"
   },
   "name": "calculator",
   "version": "1.0.0",
   "main": "calculator.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
